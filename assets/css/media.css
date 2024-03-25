@@ -19,16 +19,20 @@
     }
     /* Hero */
     #hero{
+        background-image: none;
+    }
+    #hero .hero-l{
+        padding: 0;
+        background-image: url(../images/Group\ 14.png);
         background-position: center;
-
+        background-size: contain;
+        background-repeat: no-repeat;
     }
     #hero .hero-body{
         display: flex;
         justify-content: center;
+        row-gap: 60px;
         flex-direction: column-reverse;
-    }
-    #hero .hero-l{
-        padding: 100px 0;
     }
     .hero-l{
         justify-items: center;
@@ -45,6 +49,9 @@
     .hero-btn button{
         font-size: 12px;
         padding: 14px 24px;
+    }
+    #hero .container{
+        width: 80%;
     }
 
 
