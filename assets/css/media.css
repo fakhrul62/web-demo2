@@ -32,13 +32,13 @@
     #hero .hero-l::after{
         content: "";
         position: absolute;
-        width: 130%;
+        width: 133%;
         height: 130%;
         top: -14%;
         left: -11%;
         background-image: url(../images/Group\ 14.png);
         background-position: center;
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
     }
     #hero .hero-body{
