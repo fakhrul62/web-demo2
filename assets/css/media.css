@@ -18,6 +18,10 @@
         margin-top: 25px;
     }
     /* Hero */
+    #hero{
+        background-position: center;
+
+    }
     #hero .hero-body{
         display: flex;
         justify-content: center;
@@ -38,7 +42,9 @@
     .hero-l ul li {
         font-size: 12px;
     }
-
+    .hero-btn button{
+        font-size: 12px;
+    }
 
 
 }

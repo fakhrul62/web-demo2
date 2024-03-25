@@ -82,16 +82,17 @@
 
 /*********************************************************** HERO ******************************************************************/
 #hero{
-    background-image: url(../images/Group\ 14.png);
-    background-position: left;
-    background-size: contain;
-    background-repeat: no-repeat;
+    
 }
 #hero .hero-body{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
 #hero .hero-l{
+    background-image: url(../images/Group\ 14.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
     padding: 150px 0;
     display: grid;
     align-items: center;
