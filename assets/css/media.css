@@ -26,6 +26,18 @@
     #hero .hero-l{
         padding: 100px 0;
     }
+    .hero-l{
+        justify-items: center;
+    }
+    .hero-l h3{
+        font-size: 30px;
+    }
+    .hero-l h2{
+        font-size: 60px;
+    }
+    .hero-l ul li {
+        font-size: 12px;
+    }
 
 
 
