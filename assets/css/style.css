@@ -3,12 +3,14 @@
     margin: 0;
     box-sizing: border-box;
 }
-img {
-    width: 100%;
-}
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Barlow Condensed", sans-serif;
+
+h1, h2, h3, h4, h5, h6, a, p, li, span {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
     font-style: normal;
+}
+ul, li{
+    list-style-type: none;
 }
 a {
     text-decoration: none;
@@ -18,4 +20,77 @@ a {
 }
 :root {
     scroll-behavior: smooth;
-  }
+    --pink: #FF42A5;
+    --navy: #0B0223;
+}
+.container{
+    width: 1160px;
+    margin: 0 auto;
+}
+
+/*********************************************************** HEADER ******************************************************************/
+header{
+    padding: 25px 0;
+    box-shadow: 0px 0px 20px #cacaca;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+}
+header .logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+header .logo h2{
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: 0%;
+    color: var(--navy);
+}
+header .logo span{
+    color: var(--pink);
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+nav ul li{
+    color: var(--navy);
+    font-size: 18px;
+}
+.nav-icon{
+    background-color: #e7e6e9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+/*********************************************************** HERO ******************************************************************/
+
+
+/*********************************************************** WE ARE GAMER ******************************************************************/
+
+
+/*********************************************************** FUNNY GAMES ******************************************************************/
+
+
+/*********************************************************** PLAY INSTANTLY ******************************************************************/
+
+
+/*********************************************************** CAREER ******************************************************************/
+
+
+/*********************************************************** CAREER ******************************************************************/
+
+
+/*********************************************************** GATAGORY ******************************************************************/
+
+
+/*********************************************************** FOOTER ******************************************************************/
