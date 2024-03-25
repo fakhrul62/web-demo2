@@ -4,7 +4,7 @@
         margin: 0;
         box-sizing: border-box;
     }
-
+    
     h1, h2, h3, h4, h5, h6, a, p, li, span {
         font-family: "Work Sans", sans-serif;
         font-optical-sizing: auto;
@@ -23,10 +23,14 @@
         scroll-behavior: smooth;
         --pink: #FF42A5;
         --navy: #0B0223;
+        --sky: #4EC5F7;
     }
     .container{
         width: 1160px;
         margin: 0 auto;
+    }
+    .w-100{
+        width: 100%;
     }
 
 /*********************************************************** HEADER ******************************************************************/
@@ -76,15 +80,72 @@
 
 
 /*********************************************************** HERO ******************************************************************/
+#hero{
+    background-image: url(../images/Group\ 14.png);
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 #hero .hero-body{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
 #hero .hero-l{
-    background-image: url(../images/Group\ 14.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 25px 0;
+    
+    padding: 150px 0;
+    display: grid;
+  
+    align-items: center;
+}
+.hero-l h3{
+    color: var(--navy);
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.hero-l h2{
+    background: -webkit-linear-gradient(#F948B2, #8758F1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 95px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.hero-l ul{
+    display: grid;
+    row-gap: 10px;
+}
+.hero-l ul li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #534C64;
+}
+.hero-btn{
+    margin-top: 30px;
+    display: flex;
+    gap: 25px;
+}
+.hero-btn button{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 17px 40px;
+    border-radius: 40px;
+    color: #fff;
+    border: none;
+}
+.hero-btn .btn1{
+    background-color: var(--pink);
+}
+.hero-btn .btn2{
+    background-color: var(--sky);
+}
+.hero-r{
+    padding-top: 20px;
+
 }
 
 /*********************************************************** WE ARE GAMER ******************************************************************/
