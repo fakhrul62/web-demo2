@@ -17,7 +17,15 @@
         row-gap: 25px;
         margin-top: 25px;
     }
-
+    /* Hero */
+    #hero .hero-body{
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+    #hero .hero-l{
+        padding: 100px 0;
+    }
 
 
 

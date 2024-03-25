@@ -24,9 +24,10 @@
         --pink: #FF42A5;
         --navy: #0B0223;
         --sky: #4EC5F7;
+        --grad: -webkit-linear-gradient(#F948B2, #8758F1);
     }
     .container{
-        width: 1160px;
+        width: 70%;
         margin: 0 auto;
     }
     .w-100{
@@ -91,10 +92,8 @@
     grid-template-columns: repeat(2, 1fr);
 }
 #hero .hero-l{
-    
     padding: 150px 0;
     display: grid;
-  
     align-items: center;
 }
 .hero-l h3{
@@ -104,7 +103,7 @@
     text-transform: uppercase;
 }
 .hero-l h2{
-    background: -webkit-linear-gradient(#F948B2, #8758F1);
+    background: var(--grad);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 95px;
