@@ -25,6 +25,7 @@
         --navy: #0B0223;
         --sky: #4EC5F7;
         --grad: -webkit-linear-gradient(#F948B2, #8758F1);
+        --text: #534C64;
     }
     .container{
         width: 70%;
@@ -80,75 +81,125 @@
     }
 
 
+
 /*********************************************************** HERO ******************************************************************/
-#hero{
-    background-image: url(../images/Group\ 14.png);
-    background-position: left;
-    background-repeat: no-repeat;
+    #hero{
+        background-image: url(../images/Group\ 14.png);
+        background-position: left;
+        background-repeat: no-repeat;
+    }
+    #hero .hero-body{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #hero .hero-l{
+        padding: 150px 0;
+        display: grid;
+        align-items: center;
+    }
+    .hero-l h3{
+        color: var(--navy);
+        font-size: 48px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    .hero-l h2{
+        background: var(--grad);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 95px;
+        font-weight: 900;
+        text-transform: uppercase;
+    }
+    .hero-l ul{
+        display: grid;
+        row-gap: 10px;
+    }
+    .hero-l ul li{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 20px;
+        font-weight: 500;
+        color: #534C64;
+    }
+    .hero-btn{
+        margin-top: 30px;
+        display: flex;
+        gap: 25px;
+    }
+    .hero-btn button{
+        font-size: 20px;
+        font-weight: 600;
+        text-transform: uppercase;
+        padding: 17px 40px;
+        border-radius: 40px;
+        color: #fff;
+        border: none;
+    }
+    .hero-btn .btn1{
+        background-color: var(--pink);
+    }
+    .hero-btn .btn2{
+        background-color: var(--sky);
+    }
+    .hero-r{
+        padding-top: 20px;
+
+    }
+
+
+/*********************************************************** WE ARE GAMER ******************************************************************/
+#we-are-gamer{
+    background-color: #ff42a40d;
+    padding: 100px 0;
 }
-#hero .hero-body{
+#we-are-gamer .wag-body{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 62% 38%;
+    gap: 30px;
 }
-#hero .hero-l{
-    padding: 150px 0;
+#we-are-gamer .wag-body .wag-right{
+    text-align: right;
+    justify-items: right;
     display: grid;
-    align-items: center;
+    row-gap: 15px;
 }
-.hero-l h3{
-    color: var(--navy);
-    font-size: 48px;
-    font-weight: 600;
-    text-transform: uppercase;
-}
-.hero-l h2{
+.wag-right h2{
     background: var(--grad);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 95px;
-    font-weight: 900;
-    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 48px;
 }
-.hero-l ul{
-    display: grid;
-    row-gap: 10px;
+.wag-right p{
+    font-size: 18px;
+    line-height: 30px;
+    color: var(--text);
 }
-.hero-l ul li{
-    display: flex;
-    align-items: center;
-    gap: 10px;
+.wag-right button{
     font-size: 20px;
-    font-weight: 500;
-    color: #534C64;
-}
-.hero-btn{
-    margin-top: 30px;
-    display: flex;
-    gap: 25px;
-}
-.hero-btn button{
-    font-size: 20px;
+    width: 40%;
     font-weight: 600;
     text-transform: uppercase;
     padding: 17px 40px;
     border-radius: 40px;
     color: #fff;
     border: none;
-}
-.hero-btn .btn1{
     background-color: var(--pink);
 }
-.hero-btn .btn2{
-    background-color: var(--sky);
+.wag-right h3{
+    font-size: 24px;
+    line-height: 45px;
+    font-weight: 500;
+    color: var(--text);
 }
-.hero-r{
-    padding-top: 20px;
-
+.wag-right h4{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 45px;
+    color: var(--text);
 }
-
-/*********************************************************** WE ARE GAMER ******************************************************************/
-
-
 /*********************************************************** FUNNY GAMES ******************************************************************/
 
 
