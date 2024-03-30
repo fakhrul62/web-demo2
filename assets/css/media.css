@@ -29,18 +29,7 @@
         padding: 0;
         position: relative;
     }
-    #hero .hero-l::after{
-        content: "";
-        position: absolute;
-        width: 133%;
-        height: 130%;
-        top: -14%;
-        left: -11%;
-        background-image: url(../images/Group\ 14.png);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
+    
     #hero .hero-body{
         display: flex;
         justify-content: center;
@@ -63,22 +52,681 @@
         font-size: 12px;
         padding: 14px 24px;
     }
-    
+    /* We are gamer */
+    #we-are-gamer .wag-body{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #we-are-gamer .wag-body .wag-right{
+        text-align: center;
+        justify-items: center;
+        display: grid;
+        row-gap: 15px;
+    }
+    .wag-right h2{
+        font-size: 38px;
+    }
+    .wag-right button{
+        font-size: 20px;
+        width: 80%;
+    }
+    .wag-right h3{
+        font-size: 17px;
+    }
+    .wag-right h4{
+        font-size: 17px;
+    }
+    /* Funny */
+    #funny div h3{
+        font-size: 21px;
+    }
+    #funny div p{
+        font-size: 11px;
+        text-align: center;
+    }
+    .funny-box{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    /* PLay Instant */
+    #play-instant .container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #play-instant .left{
+        text-align: center;
+        row-gap: 10px;
+    }
+    #play-instant .left h2{
+        font-size: 38px;
+        text-align: center;
+    }
+    #play-instant .left h3{
+        font-size: 38px;
+        text-align: center;
+    }
+    #play-instant .left p{
+        margin: 20px 0;
+        text-align: center;
+    }
+    #play-instant .right .right-img{
+        position: absolute;
+        width: 45%;
+        bottom: -15%;
+        left: -15%;
+    }
+    #play-instant .second.container{
+        display: flex;
+        text-align: left;
+        flex-direction: column-reverse;
+        row-gap: 10px;
+    }
+    #play-instant .second .right .right-img{
+        width: 45%;
+        left: 65%;
+        bottom: -15%;
+    }
+    /* career */
+    #career{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 20px;
+    }
+    #career h3{
+        font-size: 15px;;
+    }
+    #career button{
+        font-size: 15px;
+        width: 80%;
+    }
+    /* Catatgory */
+    #catagory{
+        padding: 50px 0;
+    }
+    #catagory .container{
+        display: flex;
+        width: 80%;
+        flex-wrap: wrap;
+        justify-content: left;
+    }
+    .cata-box{
+        display: grid;
+        grid-template-columns: 60px 85%;
+        column-gap: 5%;
+        align-items: center;
+        border: 1px solid transparent;
+        border-radius: 50px;
+        padding: 10px;
+    }
+    .cata-box img{
+        width: 100%;
+    }
+    /* Footer */
+    footer ul{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        column-gap: 1%;
+    }
+    .footer-img{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        column-gap: 1%;
+        row-gap: 15%;
+    }
+    .footer-text{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        column-gap: 1%;
+        row-gap: 2%;
+    }
 
 
 }
 
 /***************** Medium ***********************************************************************************************************/
 /************************************************************************************************************************************/
-@media screen and (min-width: 577px) and (max-width:768px) {}
+@media screen and (min-width: 577px) and (max-width:768px) {
+    body{
+        overflow-x: hidden;
+    }
+    /* Header */
+    header{
+        box-shadow: none;
+        margin-top: 50px;
+    }
+    header .logo{
+        justify-content: center;
+    }
+    header .container{
+        flex-direction: column;
+    }
+    nav ul {
+        flex-direction: column;
+        row-gap: 25px;
+        margin-top: 25px;
+    }
+    /* Hero */
+    #hero{
+        background-image: none;
+        padding-bottom: 100px;
+    }
+    #hero .hero-l{
+        padding: 0;
+        position: relative;
+    }
+    
+    #hero .hero-body{
+        display: flex;
+        justify-content: center;
+        row-gap: 60px;
+        flex-direction: column-reverse;
+    }
+    .hero-l{
+        justify-items: center;
+    }
+    .hero-l h3{
+        font-size: 30px;
+    }
+    .hero-l h2{
+        font-size: 60px;
+    }
+    .hero-l ul li {
+        font-size: 12px;
+    }
+    .hero-btn button{
+        font-size: 12px;
+        padding: 14px 24px;
+    }
+    /* We are gamer */
+    #we-are-gamer .wag-body{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #we-are-gamer .wag-body .wag-right{
+        text-align: center;
+        justify-items: center;
+        display: grid;
+        row-gap: 15px;
+    }
+    .wag-right h2{
+        font-size: 38px;
+    }
+    .wag-right button{
+        font-size: 20px;
+        width: 80%;
+    }
+    .wag-right h3{
+        font-size: 17px;
+    }
+    .wag-right h4{
+        font-size: 17px;
+    }
+    /* Funny */
+    #funny div h3{
+        font-size: 21px;
+    }
+    #funny div p{
+        font-size: 11px;
+        text-align: center;
+    }
+    .funny-box{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    /* PLay Instant */
+    #play-instant .container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #play-instant .left{
+        text-align: center;
+        row-gap: 10px;
+    }
+    #play-instant .left h2{
+        font-size: 38px;
+        text-align: center;
+    }
+    #play-instant .left h3{
+        font-size: 38px;
+        text-align: center;
+    }
+    #play-instant .left p{
+        margin: 20px 0;
+        text-align: center;
+    }
+    #play-instant .right .right-img{
+        position: absolute;
+        width: 45%;
+        bottom: -15%;
+        left: -15%;
+    }
+    #play-instant .second.container{
+        display: flex;
+        text-align: left;
+        flex-direction: column-reverse;
+        row-gap: 10px;
+    }
+    #play-instant .second .right .right-img{
+        width: 45%;
+        left: 65%;
+        bottom: -15%;
+    }
+    /* career */
+    #career{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 20px;
+    }
+    #career h3{
+        font-size: 15px;;
+    }
+    #career button{
+        font-size: 15px;
+        width: 80%;
+    }
+    /* Catatgory */
+    #catagory{
+        padding: 50px 0;
+    }
+    #catagory .container{
+        display: flex;
+        width: 80%;
+        flex-wrap: wrap;
+        justify-content: left;
+    }
+    .cata-box{
+        display: grid;
+        grid-template-columns: 60px 85%;
+        column-gap: 5%;
+        align-items: center;
+        border: 1px solid transparent;
+        border-radius: 50px;
+        padding: 10px;
+    }
+    .cata-box img{
+        width: 100%;
+    }
+    /* Footer */
+    footer ul{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        column-gap: 1%;
+    }
+    .footer-img{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        column-gap: 1%;
+        row-gap: 15%;
+    }
+    .footer-text{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        column-gap: 1%;
+        row-gap: 2%;
+    }
+}
 
 /****************** Large ***********************************************************************************************************/
 /************************************************************************************************************************************/
-@media screen and (min-width: 769px) and (max-width:992px){}
+@media screen and (min-width: 769px) and (max-width:992px){
+    body{
+        overflow-x: hidden;
+    }
+    /* Header */
+    header{
+        box-shadow: none;
+        margin-top: 50px;
+    }
+    header .logo{
+        justify-content: center;
+    }
+    header .container{
+        flex-direction: column;
+    }
+    nav ul {
+        flex-direction: column;
+        row-gap: 25px;
+        margin-top: 25px;
+    }
+    /* Hero */
+    #hero{
+        background-image: none;
+        padding-bottom: 100px;
+    }
+    #hero .hero-l{
+        padding: 0;
+        position: relative;
+    }
+    
+    #hero .hero-body{
+        display: flex;
+        justify-content: center;
+        row-gap: 60px;
+        flex-direction: column-reverse;
+    }
+    .hero-l{
+        justify-items: center;
+    }
+    .hero-l h3{
+        font-size: 30px;
+    }
+    .hero-l h2{
+        font-size: 60px;
+    }
+    .hero-l ul li {
+        font-size: 12px;
+    }
+    .hero-btn button{
+        font-size: 12px;
+        padding: 14px 24px;
+    }
+    /* We are gamer */
+    #we-are-gamer .wag-body{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #we-are-gamer .wag-body .wag-right{
+        text-align: center;
+        justify-items: center;
+        display: grid;
+        row-gap: 15px;
+    }
+    .wag-right h2{
+        font-size: 38px;
+    }
+    .wag-right button{
+        font-size: 20px;
+        width: 80%;
+    }
+    .wag-right h3{
+        font-size: 17px;
+    }
+    .wag-right h4{
+        font-size: 17px;
+    }
+    /* Funny */
+    #funny div h3{
+        font-size: 21px;
+    }
+    #funny div p{
+        font-size: 11px;
+        text-align: center;
+    }
+    .funny-box{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    /* PLay Instant */
+    #play-instant .container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #play-instant .left{
+        text-align: center;
+        row-gap: 10px;
+    }
+    #play-instant .left h2{
+        font-size: 38px;
+        text-align: center;
+    }
+    #play-instant .left h3{
+        font-size: 38px;
+        text-align: center;
+    }
+    #play-instant .left p{
+        margin: 20px 0;
+        text-align: center;
+    }
+    #play-instant .right .right-img{
+        position: absolute;
+        width: 45%;
+        bottom: -15%;
+        left: -15%;
+    }
+    #play-instant .second.container{
+        display: flex;
+        text-align: left;
+        flex-direction: column-reverse;
+        row-gap: 10px;
+    }
+    #play-instant .second .right .right-img{
+        width: 45%;
+        left: 65%;
+        bottom: -15%;
+    }
+    /* career */
+    #career{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 20px;
+    }
+    #career h3{
+        font-size: 15px;;
+    }
+    #career button{
+        font-size: 15px;
+        width: 80%;
+    }
+    /* Catatgory */
+    #catagory{
+        padding: 50px 0;
+    }
+    #catagory .container{
+        display: flex;
+        width: 80%;
+        flex-wrap: wrap;
+        justify-content: left;
+    }
+    .cata-box{
+        display: grid;
+        grid-template-columns: 60px 85%;
+        column-gap: 5%;
+        align-items: center;
+        border: 1px solid transparent;
+        border-radius: 50px;
+        padding: 10px;
+    }
+    .cata-box img{
+        width: 100%;
+    }
+    /* Footer */
+    footer ul{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        column-gap: 1%;
+    }
+    .footer-img{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        column-gap: 1%;
+        row-gap: 15%;
+    }
+    .footer-text{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        column-gap: 1%;
+        row-gap: 2%;
+    }
+}
 
 /****************** X-Large ***********************************************************************************************************/
 /**************************************************************************************************************************************/
-@media screen and (min-width: 993px) and (max-width:1440px) {}
+@media screen and (min-width: 993px) and (max-width:1440px) {
+    body{
+        overflow-x: hidden;
+    }
+    /* Header */
+    header{
+        box-shadow: none;
+        margin-top: 50px;
+    }
+    header .logo{
+        justify-content: center;
+    }
+    header .container{
+        flex-direction: column;
+    }
+    nav ul {
+        flex-direction: column;
+        row-gap: 25px;
+        margin-top: 25px;
+    }
+    /* Hero */
+    #hero{
+        background-image: none;
+        padding-bottom: 100px;
+    }
+    #hero .hero-l{
+        padding: 0;
+        position: relative;
+    }
+    
+    #hero .hero-body{
+        display: flex;
+        justify-content: center;
+        row-gap: 60px;
+        flex-direction: column-reverse;
+    }
+    .hero-l{
+        justify-items: center;
+    }
+    .hero-l h3{
+        font-size: 30px;
+    }
+    .hero-l h2{
+        font-size: 60px;
+    }
+    .hero-l ul li {
+        font-size: 12px;
+    }
+    .hero-btn button{
+        font-size: 12px;
+        padding: 14px 24px;
+    }
+    /* We are gamer */
+    #we-are-gamer .wag-body{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #we-are-gamer .wag-body .wag-right{
+        text-align: center;
+        justify-items: center;
+        display: grid;
+        row-gap: 15px;
+    }
+    .wag-right h2{
+        font-size: 38px;
+    }
+    .wag-right button{
+        font-size: 20px;
+        width: 80%;
+    }
+    .wag-right h3{
+        font-size: 17px;
+    }
+    .wag-right h4{
+        font-size: 17px;
+    }
+    /* Funny */
+    #funny div h3{
+        font-size: 21px;
+    }
+    #funny div p{
+        font-size: 11px;
+        text-align: center;
+    }
+    .funny-box{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    /* PLay Instant */
+    #play-instant .container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #play-instant .left{
+        text-align: center;
+        row-gap: 10px;
+    }
+    #play-instant .left h2{
+        font-size: 38px;
+        text-align: center;
+    }
+    #play-instant .left h3{
+        font-size: 38px;
+        text-align: center;
+    }
+    #play-instant .left p{
+        margin: 20px 0;
+        text-align: center;
+    }
+    #play-instant .right .right-img{
+        position: absolute;
+        width: 45%;
+        bottom: -15%;
+        left: -15%;
+    }
+    #play-instant .second.container{
+        display: flex;
+        text-align: left;
+        flex-direction: column-reverse;
+        row-gap: 10px;
+    }
+    #play-instant .second .right .right-img{
+        width: 45%;
+        left: 65%;
+        bottom: -15%;
+    }
+    /* career */
+    #career{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 20px;
+    }
+    #career h3{
+        font-size: 15px;;
+    }
+    #career button{
+        font-size: 15px;
+        width: 80%;
+    }
+    /* Catatgory */
+    #catagory{
+        padding: 50px 0;
+    }
+    #catagory .container{
+        display: flex;
+        width: 80%;
+        flex-wrap: wrap;
+        justify-content: left;
+    }
+    .cata-box{
+        display: grid;
+        grid-template-columns: 60px 85%;
+        column-gap: 5%;
+        align-items: center;
+        border: 1px solid transparent;
+        border-radius: 50px;
+        padding: 10px;
+    }
+    .cata-box img{
+        width: 100%;
+    }
+    /* Footer */
+    footer ul{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        column-gap: 1%;
+    }
+    .footer-img{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        column-gap: 1%;
+        row-gap: 15%;
+    }
+    .footer-text{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        column-gap: 1%;
+        row-gap: 2%;
+    }
+}
 
 /****************** XL-Large ***********************************************************************************************************/
 /**************************************************************************************************************************************/

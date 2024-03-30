@@ -17,7 +17,7 @@
         text-decoration: none;
     }
     .hide{
-        display: none;
+        display: none!important;
     }
     :root {
         scroll-behavior: smooth;
@@ -318,53 +318,53 @@
     }
 
 /*********************************************************** CAREER ******************************************************************/
-#career{
-    margin: 100px 0;
-    background: var(--pink);
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 10px;
-}
-#career .career-left{
-    padding: 5%;
-    display: grid;
-}
-#career .left{
-    display: grid;
-    row-gap: 15px;
-    margin: left auto;
-}
-#career h2{
-    font-size: 48px;
-    font-weight: 700;
-    color: #fff;
-}
-#career h3{
-    font-size: 20px;
-    line-height: 40px;
-    font-weight: 600;
-    color: #fff;
-}
-#career p{
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-    color: #fff;
-}
-.left-txt{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-content: space-between;
-}
-.left-txt-2{
-    text-align: right;
-}
-#career .right{
-    display: grid;
-    align-items: center;
-}
-#career button{
-    font-size: 20px;
+    #career{
+        margin: 100px 0;
+        background: var(--pink);
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 10px;
+    }
+    #career .career-left{
+        padding: 5%;
+        display: grid;
+    }
+    #career .left{
+        display: grid;
+        row-gap: 15px;
+        margin: left auto;
+    }
+    #career h2{
+        font-size: 48px;
+        font-weight: 700;
+        color: #fff;
+    }
+    #career h3{
+        font-size: 20px;
+        line-height: 40px;
+        font-weight: 600;
+        color: #fff;
+    }
+    #career p{
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+        color: #fff;
+    }
+    .left-txt{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-between;
+    }
+    .left-txt-2{
+        text-align: right;
+    }
+    #career .right{
+        display: grid;
+        align-items: center;
+    }
+    #career button{
+        font-size: 20px;
         width: 60%;
         font-weight: 600;
         text-transform: uppercase;
@@ -373,9 +373,92 @@
         color: var(--pink);
         border: none;
         background-color: #fff;
-}
+    }
 
 /*********************************************************** GATAGORY ******************************************************************/
-
+    #catagory{
+        padding: 100px 0;
+    }
+    #catagory .container{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        column-gap: 5px;
+        row-gap: 20px;
+        width: 80%;
+    }
+    .cata-box{
+        display: grid;
+        grid-template-columns: 60px 75%;
+        align-items: center;
+        column-gap: 20px;
+        border: 1px solid transparent;
+        border-radius: 50px;
+        padding: 10px;
+    }
+    .cata-box img{
+        width: 100%;
+    }
+    .cata-box h4{
+        font-size: 16px;
+        color: var(--navy);
+    }
+    .cata-box:hover{
+        border: 1px solid var(--pink);
+    }
+    .cata-box:hover h4{
+        color: var(--pink);
+    }
 
 /*********************************************************** FOOTER ******************************************************************/
+    footer{
+        background: var(--navy);
+        padding: 100px 0;
+    }
+    footer .container{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        row-gap: 45px;
+    }
+    footer .logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    footer .logo h2{
+        font-size: 45px;
+        font-weight: 700;
+        letter-spacing: 0%;
+        color: #fff;
+    }
+    footer .logo span{
+        color: var(--pink);
+    }
+    footer ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        column-gap: 55px;
+    }
+    footer ul li{
+        color: #fff;
+    }
+
+    .footer-img{
+        display: flex;
+        justify-content: center;
+        column-gap: 55px;
+    }
+    .footer-text{
+        display: flex;
+        justify-content: center;
+        column-gap: 55px;
+    }
+    footer h5, .footer-text h5{
+        color: #ffffff60;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 500;
+    }
